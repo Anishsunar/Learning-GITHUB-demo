@@ -1,0 +1,81 @@
+<-----GIT---->
+Git is a version control system. It is a tool that helps to track changes in codes.
+Git is a Version Control System. Git work on software on our computer. It is :
+Free & Open Source
+Fast & scalable
+Popular
+Primary Uses of Git:
+1--> To track the history like [first signup page is added then button is added like this]
+2--> To collaborate [To work with team]
+<---------GIT HUB------------>
+Website that alows developers to store and manage theri code using Git.
+https//.github.com
+we upload out complete code here in folder(Repository{Repo}) form.
+<-------Github Account--------->
+-------->Create a new repository: LearningGIThub-demo
+        Provide description.
+    Choose:
+        public: viewed to public.
+        private: not viewed to public.
+    Initialize this repository with: Read me:
+                                            A details discription about our projects.
+
+    Then  we create our repository.
+    README.md ---> .md means mark down.
+    initial commit -----> our first commit
+-------->Make our first commit
+To final changes we call it commit.
+<---------SETTING UP GIT--------------->
+Visual Studio code
+Window (Git Bash)
+Mac(Terminal)
+VERIFY --->  git --version
+<-------------CONFIGURING GIT(Telling git from which account we are changing)--------------->
+git coonfig --global user.name "My Name" ---> global and local
+git config --global user.email "someone@email.com"
+git config --list
+<-----------Some Basic commands------------->
+cd --> change directory(when we want to go inside folder)
+--->Eg: PS C:\Python Projects\GitHub> cd .\Learning-GITHUB-demo\
+cls --> to clear the terminal.
+ls --> list files and folders
+ls -a --> for hidden files.
+
+
+--------->CLONE AND STATUS:
+Clone---> Cloning a github repository on our local machine.
+         git clone <-some link->
+         """
+         remote             local
+         [Github]           [Laptop/PC]
+         """
+
+Status---> display the status of the code
+          git status
+modified:   README.md:(when the file is modified we need to follow two step process.)
+                        1->add
+                        2->commit
+        When we use Git status we have 4 types of file:
+        1->untracked:-- new file that git doesnot yet tracked.
+
+        2->modified:-- changed
+        3-> staged:-- file is ready to be committed
+                    when the file is add, then the file is staged
+                    then, the file is commit, which is unchanged.
+        4->unmodified:-- unchanged
+------------------->Add & commit
+
+add---> adds new or changed file in your working directory to Git staging area.
+        git add <-file name->
+        eg: Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+commit ---> it is the record of change.
+            git commit -m"some message"
+        Your branch is ahead of 'origin/main' by 1 commit. (meand we are 1 step a head of github in our local machine{Laptop})
+        the file is not seen in the github. so, we need to 1 more command  which is push command.
+
+------------>Push command
+push---> upload local repo content to remote repo.
+            git push origin main
