@@ -42,6 +42,8 @@ ls --> list files and folders
 ls -a --> for hidden files.
 cd .. --> for going back from directory.
 -u --> set upstream (we can avoide using origin main )
+git pull origin main --rebase --> bring the remote commits (like README.md) into your local repo without creating messy merge commits.
+git push origin main --force -->This will erase history on GitHub and keep only your local files.
 
         """
         creating new folder from terminal.
