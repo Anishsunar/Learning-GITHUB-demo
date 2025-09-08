@@ -64,7 +64,7 @@ Status---> display the status of the code
 modified:   README.md:(when the file is modified we need to follow two step process.)
                         1->add
                         2->commit
-        When we use Git status we have 4 types of file:
+        When we use git status we have 4 types of file:
         1->untracked:-- new file that git doesnot yet tracked.
 
         2->modified:-- changed
@@ -94,9 +94,9 @@ push---> upload local repo content to remote repo.
 
         <****************> 
 
-            <------Managing Folders started from our local machine.--------->
 
-
+  <------Managing Folders started from our local machine.--------->
+  
 ------------>Init Command
 init - used to create a new git repo
         git init
